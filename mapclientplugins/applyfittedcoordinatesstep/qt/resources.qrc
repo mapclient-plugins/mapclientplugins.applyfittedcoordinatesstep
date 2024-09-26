@@ -1,0 +1,6 @@
+
+<RCC>
+  <qresource prefix="applyfittedcoordinatesstep">
+    <file>images/fitting.png</file>
+  </qresource>
+</RCC>
