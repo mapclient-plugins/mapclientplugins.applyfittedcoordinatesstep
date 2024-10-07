@@ -77,7 +77,7 @@ class ApplyFittedCoordinatesStep(WorkflowStepMountPoint):
             coordinate_field = fm.findFieldByName("coordinates").castFiniteElement()
             coordinate_field.setName("original coordinates")
             undefine_field(coordinate_field)
-            del coordinate_field
+            coordinate_field.setManaged(False)
 
         fitted_coordinate_field = fm.findFieldByName("fitted coordinates")
         fitted_coordinate_field.setName("coordinates")
