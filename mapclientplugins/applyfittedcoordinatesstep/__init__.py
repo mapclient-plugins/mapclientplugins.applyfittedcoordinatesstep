@@ -3,7 +3,7 @@
 MAP Client Plugin - Generated from MAP Client v0.21.4
 """
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Auckland Bioengineering Institute'
 __stepname__ = 'Apply Fitted Coordinates'
 __location__ = 'https://github.com/mapclient-plugins/mapclientplugins.applyfittedcoordinatesstep'
